@@ -1,1 +1,6 @@
 Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,@https://www.atlassian.com/git/tutorials,,
+2,Learn Git,"Click the [<Object>] ",Click,,,Pull
+3,hamburger,"Click the [<Object>] ",Click,,,Learn
+4,hamburger is-active,"Click the [<Object>] ",Click,,,Learn
+5,Home,"Click the [<Object>] ",Click,,,Learn

@@ -1,0 +1,54 @@
+<Root type="OR" ref="NewProject">
+  <Page title="Pull Requests | Atlassian Git Tutorial" ref="Pull">
+    <ObjectGroup ref="Learn Git">
+      <Object frame="" ref="Learn Git">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Learn Git" ref="link_text" pref="3"/>
+        <Property value="(//a[contains(normalize-space(text()),'Learn Git')])[1]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div/div/div[2]/ol/div/a)[1]" ref="xpath" pref="5"/>
+        <Property value="cms-link cms-link--text group-link" ref="class" pref="6"/>
+        <Property value="html > #tutorials > #header > div.tutorial-sidebar. is-active > div._wrap > ol > div._group > a.cms-link.cms-link--text group-link" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Learn Git with Bitbucket Cloud | Atlassian Git Tutorial" ref="Learn">
+    <ObjectGroup ref="hamburger">
+      <Object frame="" ref="hamburger">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="/body/div/div[2]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div/div[2])[1]" ref="xpath" pref="5"/>
+        <Property value="hamburger" ref="class" pref="6"/>
+        <Property value="div.hamburger" ref="css" pref="7"/>
+        <Property value="div" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="hamburger is-active">
+      <Object frame="" ref="hamburger is-active">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="/body/div/div[2]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div/div[2])[1]" ref="xpath" pref="5"/>
+        <Property value="hamburger is-active" ref="class" pref="6"/>
+        <Property value="div.hamburger.is-active" ref="css" pref="7"/>
+        <Property value="div" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Home">
+      <Object frame="" ref="Home">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Home" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Home')]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div/div[3]/div/ul/div/li/a)[1]" ref="xpath" pref="5"/>
+        <Property value="cms-link cms-link--text _nav-item -home" ref="class" pref="6"/>
+        <Property value="html > #tutorials > #header > div.primary-nav.is-active > div._wrapper > ul._nav-list > div > li > a.cms-link.cms-link--text _nav-item -home" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+</Root>
