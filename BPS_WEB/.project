@@ -36,5 +36,16 @@
     "attributes" : [ ],
     "tags" : [ ]
   } ],
-  "data" : [ ]
+  "data" : [ {
+    "id" : "SANITY#TC_1",
+    "name" : "TC_1",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "testcase"
+    }, {
+      "name" : "scenario",
+      "value" : "SANITY"
+    } ]
+  } ]
 }
