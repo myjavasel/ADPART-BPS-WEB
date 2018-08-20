@@ -1,0 +1,4 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,@https://www.seleniumhq.org/,,
+2,Projects,"Click the [<Object>] ",Click,,,Selenium
+3,Download,"Click the [<Object>] ",Click,,,Selenium1
